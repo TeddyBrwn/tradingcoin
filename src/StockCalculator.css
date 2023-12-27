@@ -1,0 +1,58 @@
+
+.container{
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 50vw;
+    height: 30vh;
+    margin: 10rem auto;
+}
+.input-group{
+    margin-top: 1rem;
+}
+input{
+    text-align: center;
+    width: 6rem;
+}
+  input {
+    text-align: center; 
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+  }
+  input.buy {
+    color: green;
+    font-style: bolder;
+    font-size: 1rem;
+  }
+  
+  input.sell {
+    font-size: 1rem;
+    font-style: bolder;
+    color: red;
+  }
+  
+
+  p.total-buy-value {
+    color: green;
+  }
+
+  p.total-sell-value {
+    color: red;
+  }
+
+  p.profit {
+    color: green;
+  }
+
+  p.loss {
+    color: red;
+  }
+  /* Add these styles to your CSS file */
+.green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
+  
